@@ -1,4 +1,4 @@
-Create database: SupportTicketDB
+Create database SupportTicketDB
 
 Tables
 1. Users
