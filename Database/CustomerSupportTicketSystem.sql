@@ -45,3 +45,8 @@ CREATE TABLE TicketComments (
     FOREIGN KEY (TicketId) REFERENCES Tickets(Id),
     FOREIGN KEY (CreatedBy) REFERENCES Users(Id)
 );
+
+INSERT INTO Users (Username, PasswordHash, Role, CreatedAt)
+VALUES
+('admin','admin123','Admin',NOW()),
+('user1','user123','User',NOW());
