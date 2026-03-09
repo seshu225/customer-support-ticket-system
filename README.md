@@ -33,3 +33,6 @@ Users can create tickets and admins can manage and resolve them.
 - Only admins can assign tickets
 - Users can create and view tickets
 - Tickets contain subject, description and priority
+
+##Note----
+-- step1 : tool-> nuGet Package manager->package manager console-> dotnet dev-certs https --trust 
